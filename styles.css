@@ -1,0 +1,53 @@
+body {
+    background-color: #d3d3d3; /* Fundo cinza claro */
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(105, 33, 78); /* Fundo roxo */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke; /* Cor do nome em branca */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Alinha os itens do menu horizontalmente */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Cor do texto do menu */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white; /* Fundo branco para as seções */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(105, 33, 78); /* Fundo roxo */
+    color: white; /* Cor do texto do footer */
+}
+
+footer a {
+    color: rgb(32, 30, 187); /* Cor azul para os links do footer */
+}
